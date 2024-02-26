@@ -1,0 +1,33 @@
+body{
+background:  linear-gradient(lightyellow,lightblue, lightyellow);
+
+}
+
+
+.nav  li a,ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nav li:hover ,.services-footer ul li:hover{
+  background-color: lightcyan;
+}
+.nav-head{
+  background-color: lightblue;
+}
+.services i,#about i{
+  font-size: 150px;
+  text-align: center;
+  margin: 5px;
+}
+
+.services-head:after,.aboutus-head:after,.contact-head:after{
+  display: block;
+  width: 100px;
+ margin: 5px auto;
+  content: "";
+  height: 3px;
+  background-color: red;
+}
+.card:hover{
+  background-color: antiquewhite;
+}
